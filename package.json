@@ -22,6 +22,7 @@
         "react-request": "3.0.1"
     },
     "scripts": {
+        "build-client": "webpack --config ./webpack.config.js --mode development",
         "client": "webpack-dev-server --config ./webpack.config.js --mode development",
         "build-server": "babel -d ./build ./src/server -s",
         "server": "yarn build-server && node ./build/index.js"
