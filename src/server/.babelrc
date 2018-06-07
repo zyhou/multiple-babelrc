@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/env",
+        "@babel/preset-stage-3"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-optional-catch-binding"
+    ]
+}
